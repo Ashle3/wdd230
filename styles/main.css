@@ -1,0 +1,56 @@
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 825px;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    background-color:coral;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 7px grey;
+    
+}
+
+h1{
+    font-size: 2.75rem;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+main{
+    margin: inline;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightslategray;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid lightslategray;
+    font-size: 2rem;
+}
+.image{
+    width: 200px;
+    border-radius: 10px;
+}
+
+ul{
+    line-height: 3rem;
+}
+
+footer{
+    background-color: coral;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 7px 7px grey;
+}
