@@ -1,0 +1,27 @@
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    max-width: 300px;
+    justify-content: center;
+    
+}
+
+header, footer{
+    background-color: #192841;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h3{
+    background-color: #48494B;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    background-color: gainsboro;
+}
+
