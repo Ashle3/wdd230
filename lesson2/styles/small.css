@@ -2,11 +2,12 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    max-width: 300px;
     justify-content: center;
-    
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+
 
 header, footer{
     background-color: #192841;
@@ -23,5 +24,12 @@ h3{
 
 section{
     background-color: gainsboro;
+    padding: 10px;
 }
+
+.target_pic, .heb_pic, .tacobell_pic{
+    width: auto;
+}
+
+
 
