@@ -1,6 +1,7 @@
 
 body{
     font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -9,6 +10,11 @@ header{
     text-align: center;
     padding: 1em;
     font-size: 25px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+h2{
+    font-family: 'Libre Bodoni', serif;
 }
 
 nav{
@@ -59,4 +65,5 @@ footer{
     color: white;
     font-size: 20px;
     text-align: center;
+    font-family: 'Libre Bodoni', serif;
 }
