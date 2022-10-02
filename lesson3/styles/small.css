@@ -2,6 +2,7 @@
 body{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 header{
@@ -11,6 +12,7 @@ header{
     padding: 1em;
     font-size: 25px;
     font-family: 'Libre Bodoni', serif;
+    line-height: 2em;
 }
 
 h2{
