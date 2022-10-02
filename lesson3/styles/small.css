@@ -37,6 +37,13 @@ nav a:hover{
     color: white;
 }
 
+.navExample{
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
 main{
     padding-top: 1em;
     padding-bottom: 1em;
