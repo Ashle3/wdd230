@@ -74,6 +74,7 @@ h1, h2{
 .socialDisplay{
     display: flex;
     gap: .5rem;
+    margin-left: 10rem;
 }
 
 .hero, .event, .weather, .news, .spotlight, .join{
@@ -85,9 +86,13 @@ h1, h2{
     border: 1px solid black;
 }
 
-.spotlight1, .spotlight2{
+.spotlight1, .spotlight2, .spotlight3{
     border: 1px solid lightslategray;
     padding: .5rem;
+}
+
+.spotlight3{
+    display: none;
 }
 
 .join{
@@ -103,6 +108,16 @@ footer{
 .location{
     margin-top: 1rem;
     line-height: .5rem;
+}
+
+.map a{
+    text-decoration: none;
+    color: white;
+}
+
+.map a:hover{
+    background-color: darkred;
+    text-decoration: underline;
 }
 
 .contact{
