@@ -76,13 +76,22 @@ h1, h2{
     gap: .5rem;
 }
 
-.hero, .event, .weather, .news, .spotlight{
+.hero, .event, .weather, .news, .spotlight, .join{
     background-color: lightgray;
-    height: 100px;
+    height: 150px;
     padding: .5rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
     border: 1px solid black;
+}
+
+.spotlight1, .spotlight2{
+    border: 1px solid lightslategray;
+    padding: .5rem;
+}
+
+.join{
+    display: none;
 }
 
 footer{
