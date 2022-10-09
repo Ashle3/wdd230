@@ -7,23 +7,35 @@
     <meta name="description" content="This is the homepage for the City of Frisco Chamber of Commerce Website">
     <title>Frisco Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <img src="images/chamberlogo.png" alt="Frisco Chamber of Commerce Logo">
-        <h1>City of Frisco</h1>
-        <h2>Chamber of Commerce</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="#"><img class="social" src="images/facebook.png" alt="Facebook Logo"></a>
-            <a href="#"><img class="social" src="images/instagram.png" alt="Instagram Logo"></a>
+        <div class="else">
+            <img src="images/chamberlogo.png" alt="Frisco Chamber of Commerce Logo">
+            <div class="sitename">
+                <h1>City of Frisco</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div class="socialDisplay">
+                <a href="#"><img class="social" src="images/facebook.png" alt="Facebook Logo"></a>
+                <a href="#"><img class="social" src="images/instagram.png" alt="Instagram Logo"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
         <aside></aside>
     </header>

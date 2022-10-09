@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em){
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .else{
+        display: flex;
+        align-items: center;
+    }
+
+    .social{
+        width: 50px;
+    }
+}
