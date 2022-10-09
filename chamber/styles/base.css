@@ -1,5 +1,9 @@
 
-
+body{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+}
 header{
     display: block;
     align-items: center;
@@ -9,10 +13,14 @@ header{
     display: flex;
     align-items: center;
     gap: 1rem;
+    background-color: red;
+    color: white;
 }
 
 aside{
     text-align: center;
+    background-color: darkred;
+    color: white;
 }
 
 img{
@@ -31,9 +39,14 @@ img{
 }
 .navigation a{
     text-decoration: none;
+    color: black;
 }
 .navigation li:first-child{
     display: block;
+}
+
+.navigation li:first-child a:hover{
+    background-color: darkred;
 }
 
 .navigation li{
@@ -43,6 +56,12 @@ img{
 .responsive li{
     display: block;
     padding: .5rem;
+    background-color: white;
+}
+
+.responsive li a:hover{
+    background-color: gray;
+    color: white;
 }
 
 h1, h2{
@@ -55,4 +74,32 @@ h1, h2{
 .socialDisplay{
     display: flex;
     gap: .5rem;
+}
+
+.hero, .event, .weather, .news, .spotlight{
+    background-color: lightgray;
+    height: 100px;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.location{
+    margin-top: 1rem;
+    line-height: .5rem;
+}
+
+.contact{
+    line-height: .5rem;
+}
+
+.copyright{
+    border-top: 1px solid white;
 }
