@@ -10,10 +10,12 @@
 
     .socialDisplay{
         order: +1;
+        margin-left: 25px;
     }
     
     .navigation{
         display: flex;
+        margin-left: 100px;
     }
     .navigation li{
         display: block;
@@ -97,7 +99,14 @@
     }
     
     .info{
-        gap: 15rem;
+        gap: 1rem;
         padding-right: 1rem;
+    }
+
+    .location{
+        margin-left: 25px;
+    }
+    .contact{
+        margin-left: 150px;
     }
 }

@@ -13,18 +13,19 @@ header{
     display: flex;
     align-items: center;
     gap: 1rem;
-    background-color: #ff1616;
+    background-color: darkblue;
     color: white;
 }
 
 aside{
     text-align: center;
-    background-color: darkred;
+    background-color: darkblue;
     color: white;
     padding: 10px;
 }
 
-img{
+.logo{
+    padding-left: 10px;
     width: 100px;
 }
 
@@ -47,7 +48,7 @@ img{
 }
 
 .navigation li:first-child a:hover{
-    background-color: darkred;
+    background-color: navy;
 }
 
 .navigation li{
@@ -103,14 +104,14 @@ h1, h2{
 }
 
 footer{
-    background-color: red;
+    background-color: darkblue;
     color: white;
     text-align: center;
 }
 
 .location{
-    margin-top: 1rem;
-    line-height: .5rem;
+    margin-right: 50px;
+    margin-left: none;
 }
 
 .map a{
@@ -119,7 +120,7 @@ footer{
 }
 
 .map a:hover{
-    background-color: darkred;
+    background-color: navy;
     text-decoration: underline;
 }
 
@@ -130,3 +131,4 @@ footer{
 .copyright{
     border-top: 1px solid white;
 }
+
