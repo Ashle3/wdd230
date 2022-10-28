@@ -114,7 +114,8 @@
 
     .event, 
     .join,
-    .weather{
+    .weather,
+    .news{
         height: 90%;
         margin-top: 0px;
         padding: 10px;
