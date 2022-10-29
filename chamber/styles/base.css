@@ -15,6 +15,7 @@ header{
     gap: 1rem;
     background-color: darkblue;
     color: white;
+    padding-top: 10px;
 }
 
 aside{
@@ -31,7 +32,6 @@ aside{
 
 .sitename{
     font-size: 10px;
-    line-height: 1rem;
     padding-left: 5px;
 }
 
@@ -132,3 +132,17 @@ footer{
     border-top: 1px solid white;
 }
 
+
+/* Discovery Page*/
+
+.heart{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.train{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

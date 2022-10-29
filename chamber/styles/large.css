@@ -4,9 +4,7 @@
     body{
         font-size: 20px;
     }
-    .sitename{
-        line-height: 1rem;
-    }
+   
 
     .socialDisplay{
         order: +1;
@@ -31,7 +29,7 @@
     }
 
     .navigation a:hover{
-        background-color: darkred;
+        background-color: darkslateblue;
     }
 
     .navigation li:first-child{
@@ -119,5 +117,11 @@
         height: 90%;
         margin-top: 0px;
         padding: 10px;
+    }
+
+    /*Discovery Page*/
+
+    .heart{
+        width: 500px;
     }
 }
