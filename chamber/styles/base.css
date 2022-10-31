@@ -135,20 +135,24 @@ footer{
 
 /* Discovery Page*/
 
-.heart{
+.heart, .train, .city, .star, .historical{
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-.train{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.train, .city, .star, .historical{
+    padding-top: 35px;
+}
+.demographics{
+    padding-top: 30px;
 }
 
-.city{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+#source{
+    font-size: 13px;
+    font-style: italic;
+}
+#number{
+    font-weight: bold;
+    color: red;
 }
