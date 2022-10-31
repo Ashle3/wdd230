@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em){
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .1fr;
+    }
+
+    .sitename{
+        font-size: 20px;
+        line-height: 2.5rem;
+    }
+    .else{
+        display: flex;
+        align-items: center;
+    }
+
+    .social{
+        width: 50px;
+    }
+
+    footer{
+        padding-bottom: 5px;
+    }
+
+    body{
+        font-size: 22px;
+        line-height: 1.5em;
+    }
+
+    .historical, .train, .city, .star{
+        padding-top: 50px;
+    }
+
+    .heart:hover, .historical:hover, .train:hover, .city:hover, .star:hover{
+        border: 20px solid gold;
+    }
+}
