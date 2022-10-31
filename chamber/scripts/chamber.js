@@ -56,3 +56,19 @@ if ("IntersectionObserver" in window) {
         loadImages(img);
     });
 }
+
+
+/* Calculating Number of Days Since Last Visit */
+
+let d = new Date();
+let today = d.getDate();
+
+const visitDisplay = document.querySelector("#lastvisit");
+/*help here*/
+let lastVisit = window.localStorage.getItem("lastvisit");
+
+if (numVisits !== 0){
+    visitDisplay.textContent = numVisits;
+} else {
+    visitDisplay.textContent = "This is your first visit!";
+}
