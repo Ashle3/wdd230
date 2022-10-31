@@ -1,0 +1,58 @@
+@media only screen and (min-width: 60em){
+
+    main{
+        display: block;
+    }
+
+    .socialDisplay{
+        order: +1;
+        margin-left: 25px;
+    }
+    
+    .navigation{
+        display: flex;
+        margin-left: 100px;
+    }
+    .navigation li{
+        display: block;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-family: 'Libre Bodoni', serif;
+        font-size: 25px;
+        padding: .5rem;
+    }
+
+    .navigation a{
+        color: white;
+    }
+
+    .navigation a:hover{
+        background-color: darkslateblue;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .responsive li{
+        display: none;
+    }
+
+    aside{
+        padding: 5px;
+    }
+
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 650px;
+    }
+
+    .star, .city, .train, .historical{
+        margin-top: 100px;
+    }
+
+    .demographics{
+        text-align: center;
+    }
+}

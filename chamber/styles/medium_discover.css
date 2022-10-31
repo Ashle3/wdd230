@@ -28,10 +28,10 @@
     }
 
     .historical, .train, .city, .star{
-        padding-top: 50px;
+        margin-top: 50px;
     }
 
     .heart:hover, .historical:hover, .train:hover, .city:hover, .star:hover{
-        border: 20px solid gold;
+        box-shadow: 10px 10px 10px 10px lightblue;
     }
 }
