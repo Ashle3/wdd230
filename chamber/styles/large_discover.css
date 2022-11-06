@@ -55,4 +55,20 @@
     .demographics{
         text-align: center;
     }
+
+    /* Join Page Editing */
+
+    form{
+        width: 1000px;
+    }
+    .memberinfo{
+        display: block;
+        padding-left: 30px;
+        width: 100px;
+    }
+
+    .joininfo{
+        display: flex;
+        margin-left: auto;
+    }
 }

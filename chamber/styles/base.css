@@ -268,3 +268,7 @@ form textarea{
     border: gray solid 1px;
     background-color: darkslateblue;
 }
+
+.memberinfo{
+    display: none;
+}
