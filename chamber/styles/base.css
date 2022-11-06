@@ -66,7 +66,7 @@ aside{
     color: white;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Libre Bodoni', serif;
 }
 .social{
@@ -155,4 +155,116 @@ footer{
 #number{
     font-weight: bold;
     color: red;
+}
+
+/* Form Styling */
+
+form{
+    border: 1px gray solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(216, 234, 247);
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form legend{
+    color: darkred;
+    font-size: 25px;
+}
+
+form fieldset{
+    border: none;
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.required{
+    color: red;
+}
+
+.requiredmsg{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 10px;
+    padding-bottom: .75rem;
+}
+
+form label.top, form label.level{
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input{
+    display: block;
+    font-size: 16px;
+    border: 1px gray solid;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+}
+
+form textarea{
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+}
+
+.submitBtn{
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 7px;
+    border: gray solid 1px;
+    width: 100%;
+}
+
+.bronze{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.silver{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.gold{
+    color: rgb(155, 117, 20);
+    font-weight: bold;
+}
+
+.nonprofit{
+    color: darkblue;
+    font-weight: bold;
+}
+
+.joinh1{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.thankyou{
+    margin-top: 100px;
+    text-align: center;
+    border: 1px gray solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(216, 234, 247);
+    font-size: 17px;
+    margin-bottom: 20px
+}
+
+.return a{
+    text-decoration: none;
+    color: white;
+}
+
+.return{
+    padding: 1rem;
+    font-size: 14px;
+    border-radius: 7px;
+    border: gray solid 1px;
+    background-color: darkslateblue;
 }

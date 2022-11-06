@@ -72,3 +72,8 @@ if (numVisits !== 0){
 } else {
     visitDisplay.textContent = "This is your first visit!";
 }
+
+
+/* Adding the hidden date input on join page */
+
+document.querySelector("#date").innerHTML = today;

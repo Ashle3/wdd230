@@ -34,4 +34,20 @@
     .heart:hover, .historical:hover, .train:hover, .city:hover, .star:hover{
         box-shadow: 10px 10px 10px 10px lightblue;
     }
+
+    /* Form detailing */
+    form label.top input{
+        width: 75%;
+    }
+
+    form textarea{
+        width: 85%;
+    }
+    .submitBtn{
+        width: auto;
+    }
+
+    .joinh1{
+        line-height: 3rem;
+    }
 }
