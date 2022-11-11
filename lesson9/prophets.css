@@ -6,6 +6,11 @@ section{
     border: mediumpurple solid 2px;
 }
 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 body{
     margin-left: auto;
     margin-right: auto;
@@ -28,11 +33,6 @@ h1, h2{
         max-width: 60em;
     }
 
-    .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     section{
         margin: .5rem;
     }
@@ -46,12 +46,7 @@ h1, h2{
     body{
         max-width: none;
     }
-
-    .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
+    
     section{
         margin: .25rem;
     }
