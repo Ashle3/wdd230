@@ -2,7 +2,7 @@
 section{
     background-color: rgb(202, 185, 236);
     padding: .5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
     border: mediumpurple solid 2px;
 }
 
@@ -11,6 +11,7 @@ body{
     margin-right: auto;
     max-width: 32.5em;
     text-align: center;
+    padding: 1rem;
 }
 
 p{
@@ -19,4 +20,39 @@ p{
 
 h1, h2{
     color:rgb(48, 33, 141);
+    font-family: 'Libre Bodoni', serif;
+}
+
+@media only screen and (min-width: 32.5em){
+    body{
+        max-width: 60em;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section{
+        margin: .5rem;
+    }
+
+    img{
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    body{
+        max-width: none;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section{
+        margin: .25rem;
+    }
 }
