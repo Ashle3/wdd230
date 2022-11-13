@@ -1,0 +1,67 @@
+{
+    "directory": [
+        {
+            "name": "The Snow Cone Lady",
+            "logo": "",
+            "address": "1234 Main Street Frisco TX 75034",
+            "phone": "111-222-1234",
+            "website": "snowconelady.com"
+        },
+        {
+            "name": "Patti Ann's Flowers",
+            "logo": "",
+            "address": "2300 Main Street Frisco TX 75034",
+            "phone": "333-444-5555",
+            "website": "pattiannsflowers.com"
+        },
+        {
+            "name": "Frisco Family Services",
+            "logo": "",
+            "address": "2345 Dogwood Rd Frisco TX 75034",
+            "phone": "123-456-7890",
+            "website": "friscofamilyservices.org"
+        },
+        {
+            "name": "Randy's Steakhouse",
+            "logo": "",
+            "address": "4500 Main Street Frisco TX 75034",
+            "phone": "111-335-0011",
+            "website": "randyssteakhouse.com"
+        },
+        {
+            "name": "Poparella's",
+            "logo": "",
+            "address": "8998 Coleman Rd Frisco TX 75034",
+            "phone": "214-214-2114",
+            "website": "poparellas.com"
+        },
+        {
+            "name": "Tiff's Treats",
+            "logo": "",
+            "address": "1221 Dallas Pkwy Frisco TX 75034",
+            "phone": "714-445-7475",
+            "website": "cookiedelivery.com"
+        },
+        {
+            "name": "Hurt's Donuts",
+            "logo": "",
+            "address": "3445 Blackstone Dr Frisco TX 75033",
+            "phone": "444-888-1218",
+            "website": "hurtsdonuts.com"
+        },
+        {
+            "name": "The Cookie Rack",
+            "logo": "",
+            "address": "4321 Stonebrook Rd Frisco TX 75033",
+            "phone": "777-8898-1234",
+            "website": "cookierack.com"
+        },
+        {
+            "name": "Babe's Chicken House",
+            "logo": "",
+            "address": "4454 Page St Frisco TX 75034",
+            "phone": "888-1234-5678",
+            "website": "babeschicken.com"
+        }
+    ]
+}
