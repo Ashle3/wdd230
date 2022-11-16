@@ -79,20 +79,20 @@ if (numVisits !== 0){
 document.querySelector("#date").innerHTML = today;*/
 
 
-/* Displaying the business directory cards from json file */
+/* Displaying the business directory cards from json file*/
 
-const requestURL1 = 'https://ashle3.github.io/wdd230/chamber/json/data.json';
-const cards = document.querySelector(".cards");
-
+const requestURL1 = 'json/data.json';
+const cards = document.querySelector('.cards');
+    
 fetch(requestURL1)
     .then(function (response) {
-        return response.json;
+    return response.json();
     })
     .then(function(jsonObject){
-        console.table(jsonObject);
-        const directory = jsonObject["directory"];
-        directory.forEach(displayBusinesses);
-    })
+    console.table(jsonObject);
+    const directory = jsonObject['directory'];
+    directory.forEach(displayBusinesses);
+    });
 
 function displayBusinesses(business) {
     let card = document.createElement('section');
@@ -116,3 +116,5 @@ function displayBusinesses(business) {
 
     document.querySelector('div.cards').appendChild(card);
 }
+
+displayBusinesses();
