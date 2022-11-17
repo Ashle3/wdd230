@@ -89,7 +89,6 @@ fetch(requestURL1)
     return response.json();
     })
     .then(function(jsonObject){
-    console.table(jsonObject);
     const directory = jsonObject['directory'];
     directory.forEach(displayBusinesses);
     });
@@ -117,4 +116,21 @@ function displayBusinesses(business) {
     document.querySelector('div.cards').appendChild(card);
 }
 
-displayBusinesses();
+/*Grid vs List*/
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
