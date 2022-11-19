@@ -328,3 +328,25 @@ section a {
 		display: block;
 	}
 }
+
+/*Formatting Weather Output*/
+
+figcaption{
+    text-transform: capitalize;
+}
+
+.weather{
+    background-color: aquamarine;
+}
+
+.temp{
+    display: flex;
+}
+
+.ct{
+    font-size: 40px;
+}
+
+#weather-icon{
+    width: 90px;
+}
