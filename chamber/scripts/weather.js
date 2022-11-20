@@ -2,6 +2,8 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const windSpeed = document.querySelector('#speed');
+const windChill = document.querySelector('#chill');
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Frisco&units=imperial&appid=0c02a5e529dfd48ed794facaedabd168";
 
 async function apiFetch() {
@@ -26,8 +28,23 @@ function  displayResults(weatherData) {
   
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
+    
+    
   
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    windSpeed.innerHTML = `Wind Speed: ${weatherData.wind.speed.toFixed(0)}mph`;
+    const windFunction = calculateWindchill(currentTemp, windSpeed);
+    windChill.innerHTML = `Wind Chill: ${windFunction}`;
   }
+
+function calculateWindchill(temperature, speed) {
+  if (temperature<=50 && speed>3) {
+    let chill = 35.74 + 0.6215*temperature - 35.75*speed**0.16 + 0.4275*temperature*speed**0.16;
+    return chill;
+  } else {
+    let chill = "N/A";
+    return chill;
+  }
+}
