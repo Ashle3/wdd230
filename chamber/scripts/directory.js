@@ -15,10 +15,12 @@ fetch(requestURL1)
 function displayBusinesses(business) {
     let card = document.createElement('section');
     let logo = document.createElement('img');
+    let name = document.createElement('h3');
     let address = document.createElement('p');
     let telephone = document.createElement('p');
     let website = document.createElement('p');
 
+    name.textContent = `${business.name}`;
     address.textContent = `${business.address}`;
     telephone.textContent = `${business.phone}`;
     website.textContent = `${business.website}`;
@@ -27,6 +29,7 @@ function displayBusinesses(business) {
     logo.setAttribute('alt', `Logo of ${business.name}`);
     logo.setAttribute('loading', 'lazy');
 
+    card.appendChild(name);
     card.appendChild(logo);
     card.appendChild(address);
     card.appendChild(telephone);
