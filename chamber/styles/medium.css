@@ -28,6 +28,7 @@
     .hero, .event, .weather, .news, .spotlight, .join{
         margin-top: .25rem;
         margin-bottom: .25rem;
+        height: 250px;
     }
 
     .hero{
@@ -80,5 +81,36 @@
 
     /*Directory Page*/
     
+    /*Weather Homepage Output*/
 
+    figure{
+        line-height: 5px;
+        font-size: 15px;
+    }
+
+    figcaption{
+        text-align: left;
+    }
+
+    #weather-icon{
+        width: 85px;
+    }
+
+    .ct{
+        font-size: 35px;
+    }
 }
+
+/*figure{
+    line-height: 5px;
+    font-size: 15px;
+}
+
+#weather-icon{
+    width: 85px;
+}
+
+.ct{
+    font-size: 35px;
+}
+
