@@ -11,7 +11,6 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -34,9 +33,9 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
-    windSpeed.innerHTML = `Wind Speed: ${weatherData.wind.speed.toFixed(0)}mph`;
+    windSpeed.innerHTML = `Wind Speed: <strong>${weatherData.wind.speed.toFixed(0)}mph</strong>`;
     const windFunction = calculateWindchill(currentTemp, windSpeed);
-    windChill.innerHTML = `Wind Chill: ${windFunction}`;
+    windChill.innerHTML = `Wind Chill: <strong>${windFunction}</strtong>`;
   }
 
 function calculateWindchill(temperature, speed) {
