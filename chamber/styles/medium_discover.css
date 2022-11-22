@@ -50,4 +50,11 @@
     .joinh1{
         line-height: 3rem;
     }
+
+    /*Directory Page*/
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
