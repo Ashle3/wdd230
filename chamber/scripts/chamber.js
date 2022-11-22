@@ -64,17 +64,17 @@ let d = new Date();
 let today = d.getDate();
 
 const visitDisplay = document.querySelector("#lastvisit");
-/*help here
+/*help here*/
 let lastVisit = window.localStorage.getItem("lastvisit");
 
 if (numVisits !== 0){
     visitDisplay.textContent = numVisits;
 } else {
     visitDisplay.textContent = "This is your first visit!";
-}*/
+}
 
 
-/* Adding the hidden date input on join page 
+/* Adding the hidden date input on join page */
 
-document.querySelector("#date").innerHTML = today;*/
+document.querySelector("#lastvisit").innerHTML = today;
 

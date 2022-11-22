@@ -372,6 +372,8 @@ figcaption{
 
 .ct{
     font-size: 35px;
+    display: flex;
+    flex-direction: row;
 }
 
 #weather-icon{
