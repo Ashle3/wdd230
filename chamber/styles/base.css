@@ -353,7 +353,8 @@ button:active{
 
 figcaption{
     text-transform: capitalize;
-    text-align: center;
+    text-align: left;
+    line-height: 5px;
 }
 
 .weather{
