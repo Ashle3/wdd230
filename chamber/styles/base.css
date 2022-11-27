@@ -353,8 +353,8 @@ button:active{
 
 figcaption{
     text-transform: capitalize;
-    text-align: left;
     line-height: 5px;
+    text-align: center;
 }
 
 .weather{
@@ -364,10 +364,16 @@ figcaption{
     margin-bottom: .5rem;
     border: 1px solid black;
     padding: 5px;
+    text-align: center;
+}
+
+.weather h3{
+    font-size: 22px;
 }
 
 .temp{
     display: flex;
+    justify-content: center;
 }
 
 .ct{
