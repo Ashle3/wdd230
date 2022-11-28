@@ -46,14 +46,16 @@
             <div class="hero">
                 <h1>Welcome to Frisco!</h1>
                 <picture>
-                    <source media="(min-width: 960px)"
-                    srcset="images/cityhallMedium.webp">
+                    <source srcset="images/cityhallMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
+                    <source srcset="images/cityhallLarge.webp" media="(min-width: 960px">
                     <img class="cityhall" src="images/cityhallSmall.webp" alt="Frisco City Hall">
                 </picture>
             </div>
             <div class="event">
                 <picture>
-                    <img class="christmas" src="images/eventFlyer.webp" alt="Christmas in the Square Flyer">
+                    <source srcset="images/flyerMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
+                    <source srcset="images/eventFlyer.webp" media="(min-width: 960px">
+                    <img class="christmas" src="images/flyerSmall.webp" alt="Christmas in the Square Flyer">
                 </picture>
             </div>
             <div class="weather">
@@ -75,13 +77,13 @@
             <div class="spotlight">
                 <div class="spotlight1">
                     <img src="images/directory/ffs.webp" alt="Frisco Family Services Logo">
-                    <p>2345 Dogwood Rd Frisco TX 75034</p>
+                    <p class="address">2345 Dogwood Rd Frisco TX 75034</p>
                     <p>123-456-7890</p>
                     <p>friscofamilyservices.org</p>
                 </div>
                 <div class="spotlight2">
                     <img src="images/directory/tiffstreats.webp" alt="Tiff's Treats Logo">
-                    <p>1221 Dallas Pkwy Frisco TX 75034</p>
+                    <p class="address">1221 Dallas Pkwy Frisco TX 75034</p>
                     <p>714-445-7475</p>
                     <p>cookiedelivery.com</p>
                 </div>

@@ -44,10 +44,16 @@
 
     .spotlight{
         grid-column: 1/4;
-        grid-row: 3/4;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: auto;
+    }
+
+    .spotlight2 img{
+        height: 100px;
+    }
+
+    .address{
+        line-height: 20px;
     }
 
     .join{
