@@ -9,35 +9,35 @@
         },
         {
             "name": "Patti Ann's Flowers",
-            "logo": "https://myfsn.flowershopnetwork.com/images/myfsn_users/9723779351/290492_Logo.jpg",
+            "logo": "images/directory/pattiann.webp",
             "address": "2300 Main Street Frisco TX 75034",
             "phone": "333-444-5555",
             "website": "pattiannsflowers.com"
         },
         {
             "name": "Frisco Family Services",
-            "logo": "https://cdn.firespring.com/images/2073e366-4a39-48f3-9268-b21f53bd8256.png",
+            "logo": "images/directory/ffs1.webp",
             "address": "2345 Dogwood Rd Frisco TX 75034",
             "phone": "123-456-7890",
             "website": "friscofamilyservices.org"
         },
         {
             "name": "Randy's Steakhouse",
-            "logo": "https://s.yimg.com/fz/api/res/1.2/y5sXKi_l17OTma_fnSz3WA--~C/YXBwaWQ9c3JjaGRkO2g9MzIwO3E9ODA7dz0zMjA-/https://s.yimg.com/bj/8725/8725e8e2065c7f9ea260aff5088b3bea.jpg",
+            "logo": "images/directory/randys1.webp",
             "address": "4500 Main Street Frisco TX 75034",
             "phone": "111-335-0011",
             "website": "randyssteakhouse.com"
         },
         {
             "name": "Poparella's",
-            "logo": "https://poparellas.com/wp-content/themes/cornfettis/images/logo.png",
+            "logo": "images/directory/pop.webp",
             "address": "8998 Coleman Rd Frisco TX 75034",
             "phone": "214-214-2114",
             "website": "poparellas.com"
         },
         {
             "name": "Tiff's Treats",
-            "logo": "https://www.nrn.com/sites/nrn.com/files/tiffs-treats_0.gif",
+            "logo": "images/directory/tiffs.jpg",
             "address": "1221 Dallas Pkwy Frisco TX 75034",
             "phone": "714-445-7475",
             "website": "cookiedelivery.com"
