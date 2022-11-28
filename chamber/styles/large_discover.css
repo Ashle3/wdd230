@@ -49,11 +49,11 @@
     }
 
     .star, .city, .train, .historical{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .demographics{
-        text-align: center;
+        padding: 20px;
     }
 
     /* Join Page Editing */

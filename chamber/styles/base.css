@@ -165,7 +165,11 @@ footer img{
     padding-top: 35px;
 }
 .demographics{
-    padding-top: 30px;
+    padding: 10px;
+    background-color: lightgray;
+    border: solid 1px gray;
+    border-radius: 10px;
+
 }
 
 #source{

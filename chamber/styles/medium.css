@@ -86,6 +86,32 @@
         padding-bottom: 5px;
     }
 
+    /*medium discover css*/
+    .sitename{
+        font-size: 20px;
+    }
+
+    .social{
+        width: 50px;
+    }
+
+    footer{
+        padding-bottom: 5px;
+    }
+
+    body{
+        font-size: 22px;
+        line-height: 1.5em;
+    }
+
+    .historical, .train, .city, .star{
+        margin-top: 50px;
+    }
+
+    .heart:hover, .historical:hover, .train:hover, .city:hover, .star:hover{
+        box-shadow: 10px 10px 10px 10px lightblue;
+    }
+
     /*Directory Page*/
     
     /*Weather Homepage Output*/

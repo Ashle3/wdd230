@@ -1,17 +1,7 @@
 @media only screen and (min-width: 32.5em){
-    header{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr .1fr;
-    }
 
     .sitename{
         font-size: 20px;
-        line-height: 2.5rem;
-    }
-    .else{
-        display: flex;
-        align-items: center;
     }
 
     .social{
