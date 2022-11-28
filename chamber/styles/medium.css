@@ -22,12 +22,11 @@
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 
     .hero, .event, .weather, .news, .spotlight, .join{
-        margin-top: .25rem;
-        margin-bottom: .25rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
     }
 
     .hero{
@@ -41,8 +40,6 @@
 
     .news{
         grid-column: 1/4;
-        grid-row: 2/3;
-        height: auto;
     }
 
     .spotlight{
