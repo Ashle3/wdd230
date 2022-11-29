@@ -39,11 +39,12 @@ function  displayResults(weatherData) {
   }
 
 function calculateWindchill(temperature, speed) {
+  let chill;
   if (temperature<=50 && speed>3) {
-    let chill = 35.74 + 0.6215*temperature - 35.75*speed**0.16 + 0.4275*temperature*speed**0.16;
+    chill = 35.74 + 0.6215*temperature - 35.75*speed**0.16 + 0.4275*temperature*speed**0.16;
     return chill;
   } else {
-    let chill = "N/A";
-    return chill;
+    chill = "N/A";
   }
+  return chill;
 }

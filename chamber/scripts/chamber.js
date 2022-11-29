@@ -23,58 +23,48 @@ try {
     alert("Error");
 }
 
-let lastModif = new Date(document.lastModified);
 
-document.getElementById("lastModified").innerHTML = lastModif
-
-
-
-/* Lazy Loading Image Technique */
-
-let imagesToLoad = document.querySelectorAll("img[data-src]");
-const loadImages = (image) => {
-    image.setAttribute("src", image.getAttribute("data-src"));
-    image.onload = () => {
-        image.removeAttribute("data-src");
-    };
-};
-
-if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-        items.forEach((item) => {
-            if (item.isIntersecting) {
-                loadImages(item.target);
-                observer.unobserve(item.target);
-            }
-        });
-    });
-    imagesToLoad.forEach((img) => {
-        observer.observe(img);
-    });
-} else {
-    imagesToLoad.forEach((img) => {
-        loadImages(img);
-    });
-}
+document.getElementById("lastModified").innerHTML = (document.lastModified);
 
 
 /* Calculating Number of Days Since Last Visit */
 
-let d = new Date();
-let today = d.getDate();
-
 const visitDisplay = document.querySelector("#lastvisit");
 /*help here*/
-let lastVisit = window.localStorage.getItem("lastvisit");
+let daysPassed = 0;
+let lastVisited;
+let today = now;
 
-if (numVisits !== 0){
-    visitDisplay.textContent = numVisits;
+const setStorage = () => {
+    localStorage.setItem("lastVisited", today.getTime());
+    localStorage.setItem("today", today.getTime());
+};
+
+const setNewDate = () => {
+    localStorage.setItem("today", today.getTime());
+    daysPassed = calculateDays();
+};
+
+const calculateDays = () => {
+    let last = localStorage.getItem("lastVisited");
+    let current = localStorage.getItem("today");
+
+    let difference = current-last;
+
+    daysPassed = Math.round(difference/(1000*3600*24));
+    return daysPassed;
+};
+
+if (!localStorage.getItem("lastVisited")) {
+    setStorage();
+    daysPassed=calculateDays();
 } else {
-    visitDisplay.textContent = "This is your first visit!";
+    setNewDate();
 }
 
-
+visitDisplay.innerHTML = daysPassed;
+localStorage.setItem("lastVisited", today.getTime());
 /* Adding the hidden date input on join page */
 
-document.querySelector("#lastvisit").innerHTML = today;
+/*document.querySelector("#lastvisit").innerHTML = today;*/
 
