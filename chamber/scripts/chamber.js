@@ -26,6 +26,18 @@ try {
 
 document.getElementById("lastModified").innerHTML = (document.lastModified);
 
+/*Creating the banner appear/disappear thing*/
+
+const banner = document.querySelector(".banner");
+
+let weekday = now.getDay();
+
+if (weekday == 1 || weekday == 2) {
+    const banner = document.querySelector(".banner");
+} else{
+    banner.remove();
+}
+
 
 
 /* Adding the hidden date input on join page */
