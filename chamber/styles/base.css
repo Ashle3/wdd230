@@ -298,20 +298,9 @@ button:active{
     margin-bottom: .5rem;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-}
-
-.list {
-	display: flex;
-	flex-direction: column;
-}
-
-.list section {
-	display: flex;
-	align-items: center;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .grid section {
@@ -357,7 +346,6 @@ button:active{
 		display: block;
 	}
 }
-
 /*Formatting Weather Output*/
 
 figcaption{

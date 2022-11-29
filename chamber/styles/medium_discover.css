@@ -43,11 +43,9 @@
 
     /*Directory Page*/
 
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
+    
+    
+    
     /*Contact Page*/
 
     .form2 .submitBtn{
