@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the contact page for the City of Frisco Chamber of Commerce Website">
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="else">
+            <img class="logo"src="images/chamberlogo.webp" alt="Frisco Chamber of Commerce Logo">
+            <div class="sitename">
+                <h1>City of Frisco</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div class="socialDisplay">
+                <a href="#"><img class="social" src="images/social/facebook.webp" alt="Facebook Logo"></a>
+                <a href="#"><img class="social" src="images/social/instagram.webp" alt="Instagram Logo"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <aside></aside>
+    </header>
+    <main>
+        <div class="content">
+        <h1>Contact Us!</h1>
+        <section class="contact1">
+            <h2>Contact Information</h2>
+            <p>Email: info@friscochamber.org</p>
+            <p>Phone: (972) 000-0000</p>
+        </section>
+        <section class="location1">
+            <h2>Address</h2>
+            <p>Frisco Chamber of Commerce</p>
+            <p>1234 Street Name Lane</p>
+            <p>Frisco, TX 75033</p>
+        </section>
+        <section class="hours">
+            <h2>Office Hours</h2>
+            <p>Monday-Friday 7am-5pm</p>
+            <p>Closed on Holidays</p>
+        </section>
+        <section class="follow">
+            <h2>Follow Us</h2>
+            <div class="facebook">
+                <img class="social1" src="images/social/facebook.webp" alt="Facebook Logo">
+                <p class="handle">Frisco Chamber of Commerce</p>
+            </div>
+            <div class="instagram">
+                <img class="social1" src="images/social/instagram.webp" alt="Instagram Logo">
+                <p class="handle">frisco_chamberof_commerce</p>
+            </div>
+        </section>
+        <section class="board">
+            <h2>Board Members</h2>
+            <div class="director1">
+                <h4>Gary Frederick Jr.</h4>
+                <p class="diremail">director1@gmail.com</p>
+            </div>
+            <div class="director2">
+                <h4>Mary Kennedy</h4>
+                <p class="diremail">director2@gmail.com</p>
+            </div>
+            <div class="director3">
+                <h4>Lisa Armstrong</h4>
+                <p class="diremail">director3@gmail.com</p>
+            </div>
+            <div class="director4">
+                <h4>Roger Blaine</h4>
+                <p class="diremail">director4@gmail.com</p>
+            </div>
+            <div class="director5">
+                <h4>Ted Mooney</h4>
+                <p class="diremail">director5@gmail.com</p>
+            </div>
+        </section>
+        <form class="form2" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Got Any Questions?</legend>
+                <div class="subtitle">Ask one here!</div>
+                <div class="requiredmsg"><span class="required">*</span> means that this field is required.</div>
+                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname" required></label>
+                <label class="top">Last Name<span class="required">*</span> <input type="text" name="lname" required></label>
+                <label class="top">Question: <span class="required">*</span><textarea name="formquest" id="question" required></textarea></label>
+                <input class="submitBtn" type="submit" value="Submit Question">
+            </fieldset>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+            <img class="logo"src="images/chamberlogo.webp" alt="Frisco Chamber of Commerce Logo">
+            <div class="location">
+                <p>Frisco Chamber of Commerce</p>
+                <p>1234 Street Name Lane</p>
+                <p>Frisco, TX 75033</p>
+            </div>
+            <div class="contact">
+                <p>info@friscochamber.org</p>
+                <p>(972) 000-0000</p>
+                <p class="map"><a href="maps.google.com">Location Map</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169;<span id="currentyear"></span>--Ashlee Butterfield--WDD 230 Project</p>
+            <p>Last updated: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
