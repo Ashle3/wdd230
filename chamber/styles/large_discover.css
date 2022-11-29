@@ -114,9 +114,9 @@
 
     /* Directory */
 
-    body{
-        max-width: none;
-    }
+   .list section{
+    font-size: 20px;
+   }
     
     /* Contact Page */
 
