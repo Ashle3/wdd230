@@ -118,5 +118,36 @@
         max-width: none;
     }
     
+    /* Contact Page */
+
+    .invitation{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+    }
     
+    .board{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 30px;
+        background-color: white;
+    }
+
+    .contactus{
+        grid-column: 1/2;
+        margin-top: 30px;
+        margin-left: 250px;
+        margin-right: 0px;
+        border-right: black 3px solid;
+    }
+
+    .form2{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
 }
