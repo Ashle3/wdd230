@@ -244,23 +244,7 @@ form textarea{
     width: 100%;
 }
 
-.bronze{
-    color: chocolate;
-    font-weight: bold;
-}
-
-.silver{
-    color: darkslategray;
-    font-weight: bold;
-}
-
-.gold{
-    color: rgb(155, 117, 20);
-    font-weight: bold;
-}
-
-.nonprofit{
-    color: darkblue;
+.bronze, .silver, .gold, .nonprofit{
     font-weight: bold;
 }
 

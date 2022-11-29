@@ -42,7 +42,7 @@
         padding: 5px;
     }
 
-    main{
+    .discover{
         margin-left: auto;
         margin-right: auto;
         max-width: 800px;
@@ -59,17 +59,57 @@
     /* Join Page Editing */
 
     form{
-        width: 1000px;
+        width: 600px;
     }
+
     .memberinfo{
         display: block;
         padding-left: 30px;
-        width: 100px;
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .npinfo{
+        background-color: lightblue;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 20px;
+        border: solid darkblue 1px;
+        border-radius: 10px;
+    }
+
+    .binfo{
+        background-color: rgb(247, 165, 108);
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 20px;
+        border: solid rgb(100, 44, 4) 1px;
+        border-radius: 10px;
+    }
+
+    .sinfo{
+        background-color: lightgray;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 20px;
+        border: solid rgb(33, 54, 54) 1px;
+        border-radius: 10px;
+    }
+
+    .ginfo{
+        background-color: gold;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-top: 20px;
+        border: solid darkgoldenrod 1px;
+        border-radius: 10px;
     }
 
     .joininfo{
         display: flex;
         margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
     }
 
     /* Directory */
