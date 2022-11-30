@@ -32,7 +32,7 @@
             </div>
             <nav>
                 <ul class="navigation">
-                    <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a class="lines" href="#" onclick="toggleMenu()">&#9776;</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
@@ -48,16 +48,22 @@
                 <h1>Welcome to Frisco!</h1>
                 <picture>
                     <source srcset="images/cityhallMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
-                    <source srcset="images/cityhallLarge.webp" media="(min-width: 960px">
+                    <source srcset="images/cityhallLarge1.webp" media="(min-width: 960px) and (max-width: 1080px)">
+                    <source srcset="images/cityhallLarge2.webp" media="(min-width: 1081px)">
                     <img class="cityhall" src="images/cityhallSmall.webp" alt="Frisco City Hall">
                 </picture>
+                <a href="join.html"><button id="call">Join the Chamber!</button></a>
             </div>
             <div class="event">
                 <picture>
-                    <source srcset="images/flyerMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
-                    <source srcset="images/eventFlyer.webp" media="(min-width: 960px">
                     <img class="christmas" src="images/flyerSmall.webp" alt="Christmas in the Square Flyer">
                 </picture>
+                <div class="square">
+                    <h2>Christmas in the Square</h2>
+                    <h4 class="one">Open Now!</h4>
+                    <h4>Thru Jan 3</h4>
+                    <a href="external.html"><button id="learn">Learn More</button></a>
+                </div>
             </div>
             <div class="weather">
                 <h3>Frisco</h3>
@@ -93,16 +99,17 @@
                 </div>
             </div>
             <div class="join">
-                <p>Join</p>
+                <a href="join.html"><button id="join">Join</button></a>
+                <p>Join our Chamber of Commerce, and start helping your business today!</p>
             </div>
     </main>
     <footer>
         <div class="info">
             <img class="logo"src="images/chamberlogo.webp" alt="Frisco Chamber of Commerce Logo">
             <div class="location">
-                <p>Frisco Chamber of Commerce</p>
-                <p>1234 Street Name Lane</p>
-                <p>Frisco, TX 75033</p>
+                <p class="title">Frisco Chamber of Commerce</p>
+                <p class="title">1234 Street Name Lane</p>
+                <p class="title">Frisco, TX 75033</p>
             </div>
             <div class="contact">
                 <p>info@friscochamber.org</p>
@@ -112,7 +119,7 @@
         </div>
         <div class="copyright">
             <p>&#169;<span id="currentyear"></span>--Ashlee Butterfield--WDD 230 Project</p>
-            <p>Weather info courtesy of: <strong>openweather.com</strong></p>
+            <p>Weather info courtesy of: <em>openweather.com</em></p>
             <p>Last updated: <span id="lastModified"></span></p>
         </div>
     </footer>

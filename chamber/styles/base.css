@@ -59,6 +59,10 @@ aside{
     display: block;
 }
 
+.navigation li:first-child a{
+    color: white;
+}
+
 .navigation li:first-child a:hover{
     background-color: navy;
 }
@@ -98,6 +102,23 @@ h1, h2, h3{
     position: relative;
 }
 
+#call{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#call a:hover{
+    background-color: rgb(83, 2, 2);
+    text-decoration: underline;
+}
+
 .hero h1{
     position: absolute;
     left: 50px;
@@ -110,6 +131,10 @@ h1, h2, h3{
 
 .cityhall, .christmas{
     width: 100%;
+}
+
+.square{
+    display: none;
 }
 
 .spotlight1, .spotlight2, .spotlight3{

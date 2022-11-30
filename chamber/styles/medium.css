@@ -8,7 +8,7 @@
 
     .sitename{
         font-size: 20px;
-        line-height: 2.5rem;
+        line-height: 2rem;
     }
     .else{
         display: flex;
@@ -19,6 +19,10 @@
         width: 50px;
     }
 
+    .banner{
+        font-size: 20px;
+        padding: 10px;
+    }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -32,6 +36,10 @@
     .hero{
         grid-column: 1/4;
         grid-row: 1/2;
+    }
+
+    #call{
+        font-size: 30px;
     }
 
     .news{
@@ -56,13 +64,65 @@
         display: block;
         grid-column: 1/4;
         grid-row: 4/5;
-        height: auto;
+        background-color: lightgray;
+        border-radius: 10px;
+        border: black solid 1px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #join{
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        width: 100%;
+        background-color: darkred;
+        color: white;
+        border: none;
     }
 
     .event{
         grid-column: 1/3;
         grid-row: 5/6;
         margin-right: 2px;
+        position: relative;
+    }
+
+     /* Event display */
+     .christmas{
+        display: none;
+    }
+
+    .square{
+        display: block;
+        text-align: center;
+        border: 1px solid lightgray;
+        height: 100%;
+        background-color: rgb(2, 2, 51);
+    }
+
+    .square h2{
+        font-size: 35px;
+        line-height: 2rem;
+        color: red;
+    }
+
+    .square h4{
+        color: green;
+        font-family: 'Libre Bodoni', serif;
+    }
+
+    .one{
+        font-size: 20px;
+    }
+
+    #learn{
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
     }
 
     .weather{
@@ -79,6 +139,10 @@
 
     footer{
         padding-bottom: 5px;
+    }
+
+    .title{
+        line-height: 1rem;
     }
 
     /*medium discover css*/
@@ -120,11 +184,6 @@
 
     .ct{
         font-size: 35px;
-    }
-
-    /* Event display */
-    .christmas{
-        height: auto;
     }
 }
 
