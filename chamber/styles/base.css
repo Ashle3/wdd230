@@ -340,7 +340,12 @@ button:active{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.grid .cards div{
+    line-height: 2rem;
 }
 
 .grid section {
@@ -353,8 +358,8 @@ button:active{
 }
 
 .grid section img{
-    height: 127px;
-    width: auto;
+    height: auto;
+    width: 200px;
 }
 
 .grid section h3{

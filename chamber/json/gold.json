@@ -1,0 +1,28 @@
+{
+    "goldmembers": [
+        {
+            "name": "Frisco Family Services",
+            "logo": "images/directory/ffs1.webp",
+            "address": "2345 Dogwood Rd Frisco TX 75034",
+            "phone": "123-456-7890",
+            "website": "friscofamilyservices.org",
+            "level": "gold"
+        },
+        {
+            "name": "Randy's Steakhouse",
+            "logo": "images/directory/randys1.webp",
+            "address": "4500 Main Street Frisco TX 75034",
+            "phone": "111-335-0011",
+            "website": "randyssteakhouse.com",
+            "level": "gold"
+        },
+        {
+            "name": "Poparella's",
+            "logo": "images/directory/pop.webp",
+            "address": "8998 Coleman Rd Frisco TX 75034",
+            "phone": "214-214-2114",
+            "website": "poparellas.com",
+            "level": "gold"
+        }
+    ]
+}

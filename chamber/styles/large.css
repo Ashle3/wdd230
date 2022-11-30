@@ -75,7 +75,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        height: auto;
     }
 
     .spotlight3{
@@ -122,8 +121,7 @@
         padding: 10px;
     }
 
-    /*Discovery Page*/
-
+    /*Directory Page*/
     /*Homepage Weather Output*/
 
     figure{

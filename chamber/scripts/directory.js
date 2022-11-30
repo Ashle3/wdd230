@@ -16,7 +16,7 @@ function displayBusinesses(business) {
     let card = document.createElement('section');
     let logo = document.createElement('img');
     let name = document.createElement('h3');
-    let address = document.createElement('p');
+    let address = document.createElement('div');
     let telephone = document.createElement('p');
     let website = document.createElement('p');
 
@@ -56,3 +56,43 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+/*Homepage Display Attempt*
+
+const requestURL2 = 'json/gold.json';
+const spotlight = document.querySelector(".spotlight");
+
+fetch(requestURL2)
+    .then(function (response) {
+    return response.json();
+    })
+    .then(function(jsonObject){
+    const directory = jsonObject['goldmembers'];
+    directory.forEach(displayBusinesses1);
+    });
+
+    function displayBusinesses1(business) {
+        let card = document.createElement('div');
+        let logo = document.createElement('img');
+        let name = document.createElement('h3');
+        let address = document.createElement('p');
+        let telephone = document.createElement('p');
+        let website = document.createElement('p');
+    
+        name.textContent = `${business.name}`;
+        address.textContent = `${business.address}`;
+        telephone.textContent = `${business.phone}`;
+        website.textContent = `${business.website}`;
+    
+        logo.setAttribute('src', business.logo);
+        logo.setAttribute('alt', `Logo of ${business.name}`);
+        logo.setAttribute('loading', 'lazy');
+    
+        card.appendChild(name);
+        card.appendChild(logo);
+        card.appendChild(address);
+        card.appendChild(telephone);
+        card.appendChild(website);
+    
+        document.querySelector('div.spotlight').appendChild(card);
+    }*/
