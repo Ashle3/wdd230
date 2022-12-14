@@ -231,6 +231,7 @@ footer{
 .requiredmsg{
     font-style: italic;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 
 fieldset{
@@ -266,6 +267,11 @@ form label.top textarea{
     grid-template-columns: 1fr 1fr;
     margin-top: 15px;
     margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.top{
+    font-size: 20px;
 }
 
 .fruitopt section{
