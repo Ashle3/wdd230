@@ -206,3 +206,97 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* Fresh Page */
+
+/*.bannerFresh h2{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    background-color: #659925;
+    padding: 10px;
+    color: white;
+}*/
+
+.create{
+    text-align: center;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+.requiredmsg{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    padding: 30px;
+    border: none;
+}
+
+form label.top{
+    display: block;
+}
+
+form label.top input, form label.top textarea{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+form label.top input{
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    font-size: 20px;
+}
+
+form label.top textarea{
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
+    height: 100px;
+}
+
+.fruitopt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.fruitopt section{
+    padding-top: 1rem;
+}
+
+.fruitopt:nth-child(odd){
+    grid-column: 1/2;
+}
+
+.fruitopt:nth-child(even){
+    grid-column: 2/3;
+}
+
+.checkbox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submitBtn{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.submitBtn:hover{
+    background-color: darkslategrey;
+    color: white;
+}
+
+form{
+    background-color: #b8fc65;
+    border-radius: 20px;
+}

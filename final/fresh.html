@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh - Bountiful Foods</title>
+    <meta name="description" content="Lets customers create their own fruit drinks.">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="http://placekitten.com/200/300" alt="#">
+        <h1>Bountiful Foods</h1>
+        <div class="nav">
+            <ul>
+                <li><a class="lines" href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Fresh</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="bannerFresh">
+            <picture>
+                <img class="banner blender" src="images/blenderSmall.webp" alt="Image of Fruit in a Blender" loading="lazy">
+            </picture>
+            <!--<h2>Fresh Drinks</h2>-->
+        </div>
+        <h2 class="create">Create Your Own Drink</h2>
+        <form method="get" action="">
+            <fieldset>
+                <div class="requiredmsg"><span class="required">*</span> means that this field is required.</div>
+                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname" required></label>
+                <label class="top">Email<span class="required">*</span> <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                <label class="top">Cell Phone<span class="required">*</span> <input type="tel" name="phone" required></label>
+                <div class="checkbox">
+                    <label class="top">Please Select 3 Fruits to Make Your Drink<span class="required">*</span></label>
+                    <article>
+                        <div class="fruitopt"></div>
+                    </article>
+                </div>
+                <label class="top">Special Instructions <textarea name="instructions" id="specinstructions" ></textarea></label>
+                <input class="submitBtn" type="submit" value="Create Drink">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Bountiful Foods</p>
+        <p>&#169;<span id="currentyear"></span>--Ashlee Butterfield--WDD 230 Final Project</p>
+        <a href="resources.html"><p>Resources Used</p></a>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+    <script src="js/home.js"></script>
+    <script src="js/fruit.js"></script>
+</body>
+</html>
