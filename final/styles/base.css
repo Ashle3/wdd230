@@ -1,0 +1,88 @@
+
+header{
+    display: flex;
+    align-items: center;
+    background-color:  #Abff43;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+/* Navigation */
+
+ul li:first-child{
+    display: flex;
+}
+
+ul li:first-child:hover{
+    background-color: #7dbe2e;
+    color: white;
+}
+
+.nav{
+    position: relative;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+}
+
+ul {
+    position: absolute;
+    display: block;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
+    display: none;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.responsive li{
+    background-color: white;
+    display: block;
+} 
+
+.responsive li:hover{
+    background-color:#7dbe2e;
+    color: white;
+}
+
+/* Main */
+
+.banner{
+    width: 100%;
+}
+
+.fruit{
+    position: relative;
+}
+
+.slogan{
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+    background-color: #659925;
+    text-align: center;
+    padding: 10px;
+}
