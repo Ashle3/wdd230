@@ -29,17 +29,40 @@
        </header>
        <main>
         <picture>
-            <img  class="banner fruit" src="images/fruitSmall.webp" alt="Mixed Fruit">
+            <img  class="banner fruit" src="images/fruitSmall.webp" alt="Mixed Fruit" loading="lazy">
         </picture>
         <p class="slogan"><strong>Fresh Food <br> Made Just For <br> You</strong></p>
         <div class="drink">
             <h2>Create Your Own Fruit Drink!</h2>
             <button id="call"><a href="#">Start Here!</a></button>
             <picture>
-                <img class="banner smoothie" src="images/smoothieSmall.webp" alt="Fruit Smoothie">
+                <img class="banner smoothie" src="images/smoothieSmall.webp" alt="Fruit Smoothie" loading="lazy">
             </picture>
+            <p class="drinknum">You have created <span></span> total fruit drinks. </p>
+        </div>
+        <div class="coast">
+            <picture>
+                <img class="banner" src="images/carlsbadSmall.webp" alt="Carlsbad, California Beach" loading="loading">
+            </picture>
+            <h2>Carlsbad, California</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error fugiat distinctio quasi? Laudantium debitis rem dignissimos aperiam asperiores repellendus, autem incidunt iure suscipit odit ex, natus quisquam qui sit.</p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <div class="today">
+                <h3>Carlsbad, CA</h3>
+                <figure>
+                    <div class="temp">
+                        <img src="" alt="" id="weather-icon" />
+                        <p class="ct"><span id="current-temp"></span> &deg;F</p>
+                    </div>
+                    <h4><figcaption id="despcription"></figcaption></h4>
+                    <p class="humidity"><span id="humidity"></span></p>
+                </figure>
+            </div>
         </div>
        </main>
     <script src="js/home.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
