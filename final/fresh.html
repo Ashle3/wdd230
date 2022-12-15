@@ -38,7 +38,7 @@
         <form method="get" action="">
             <fieldset>
                 <div class="requiredmsg"><span class="required">*</span> means that this field is required.</div>
-                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname" required></label>
+                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname" id="nameValue" required></label>
                 <label class="top">Email<span class="required">*</span> <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
                 <label class="top">Cell Phone<span class="required">*</span> <input type="tel" name="phone" required></label>
                 <div class="checkbox">
@@ -47,10 +47,18 @@
                         <div class="fruitopt"></div>
                     </article>
                 </div>
-                <label class="top">Special Instructions <textarea name="instructions" id="specinstructions" ></textarea></label>
+                <label class="top">Special Instructions <textarea name="instructions" id="specinstructions" required></textarea></label>
                 <input class="submitBtn" type="submit" value="Create Drink">
             </fieldset>
         </form>
+        <div class="output">
+            <p>Name: <span id="name"></span></p>
+            <p>Email: <span id="email"></span></p>
+            <p>Cell Phone: <span id="phone"></span></p>
+            <p>Selected Fruits: <span id="fruits"></span></p>
+            <p>Special Instructions: <span id="instructions"></span></p>
+
+        </div>
     </main>
     <footer>
         <p>Bountiful Foods</p>

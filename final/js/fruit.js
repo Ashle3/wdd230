@@ -23,3 +23,9 @@ function displayFruitOption(fruit){
 
     document.querySelector('div.fruitopt').appendChild(fruitChoice);
 }
+
+/* Output */
+
+let name1 = document.querySelector("#name");
+
+name1.textContent = document.getElementsByName("fname");
