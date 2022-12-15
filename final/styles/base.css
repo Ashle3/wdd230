@@ -309,3 +309,12 @@ form{
 
 /* Form Output */
 
+/* About Us Page */
+
+.aboutinfo{
+    line-height: 1.5rem;
+}
+
+.about{
+    margin-top: 50px;
+}
