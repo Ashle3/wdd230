@@ -1,9 +1,8 @@
 @media only screen and (min-width: 60em){
 
     body{
-        padding: 0px;
-        margin-left: none;
-        margin-right: none;
+        padding-left: 10px;
+        padding-right: 10px;
         max-width: none;
     }
 
@@ -50,13 +49,28 @@
 
     /*About Us Page*/
 
-    .about1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .carrots{
+        width: 300px;
+        float: right;
     }
 
-    .carrots{
-        grid-column: 2/3;
+    .box{
+        display: none;
+    }
+
+    .strawberries{
+        width: 400px;
+        float: left;
+        padding-right: 20px;
+    }
+
+    .contact{
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    .about{
+        margin-bottom: 10px;
     }
 
 }
