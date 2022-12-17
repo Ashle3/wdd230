@@ -7,6 +7,8 @@
     <title>Fresh - Bountiful Foods</title>
     <meta name="description" content="Lets customers create their own fruit drinks.">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +19,11 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="http://placekitten.com/200/300" alt="#">
+        <img class="logo" src="images/bountiful_foods_logo.webp" alt="Bountiful Foods Logo">
         <h1>Bountiful Foods</h1>
         <div class="nav">
             <ul>
-                <img class="logo" src="images/bountiful_foods_logo.webp" alt="Bountiful Foods Logo">
+                <li><a class="lines" href="#" onclick="toggleMenu()">&#9776;</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -32,6 +34,8 @@
     <main>
         <div class="bannerFresh">
             <picture>
+                <source srcset="images/blender2Medium.webp" media="(min-width: 519px) and (max-width: 959px)">
+                <source srcset="images/blender2Large.webp" media="(min-width: 960px)">
                 <img class="banner blender" src="images/blenderSmall.webp" alt="Image of Fruit in a Blender" loading="lazy">
             </picture>
             <!--<h2>Fresh Drinks</h2>-->
@@ -40,7 +44,7 @@
         <form method="get" action="">
             <fieldset>
                 <div class="requiredmsg"><span class="required">*</span> means that this field is required.</div>
-                <label class="top">First Name<span class="required">*</span> <input type="text" name="fname" id="nameValue" required></label>
+                <label class="top first">First Name<span class="required">*</span> <input type="text" name="fname" id="nameValue" required></label>
                 <label class="top">Email<span class="required">*</span> <input type="email" name="email" placeholder="myemail@gmail.com" required></label>
                 <label class="top">Cell Phone<span class="required">*</span> <input type="tel" name="phone" required></label>
                 <div class="checkbox">
@@ -49,7 +53,7 @@
                         <div class="fruitopt"></div>
                     </article>
                 </div>
-                <label class="top">Special Instructions <textarea name="instructions" id="specinstructions" required></textarea></label>
+                <label class="top">Special Instructions<span class="required">*</span> <textarea name="instructions" id="specinstructions" required></textarea></label>
                 <input class="submitBtn" type="submit" value="Create Drink">
             </fieldset>
         </form>

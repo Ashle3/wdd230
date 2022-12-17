@@ -7,6 +7,7 @@
     <title>Home - Bountiful Foods</title>
     <meta name="description" content="Bountiful Foods home, which allows consumers to learn more about the company, and create orders of their own.">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,9 +32,11 @@
        </header>
     <main>
         <picture>
+            <source srcset="images/fruit_mixedMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
             <img  class="banner fruit" src="images/fruitSmall.webp" alt="Mixed Fruit" loading="lazy">
         </picture>
         <p class="slogan"><strong>Fresh Food <br> Made Just For <br> You</strong></p>
+        <div class="layout">
         <div class="drink">
             <h2>Create Your Own Fruit Drink!</h2>
             <button id="call"><a href="#">Start Here!</a></button>
@@ -68,6 +71,7 @@
         </div>
         <div class="social1">
             <h2>Follow Us!</h2>
+            <div class="icons">
             <div class="follow">
                 <img class="social" src="images/facebook.webp" alt="Facebook Logo" loading="lazy">
                 <a href="https://facebook.com" target="blank">facebook.com/BountifulFoods</a>
@@ -80,6 +84,8 @@
                 <img class="social" src="images/linkedin.webp" alt="LinkedIn Logo" loading="lazy">
                 <a href="https://linkedin.com" target="blank">linkedin.com/BountifulFoods</a>
             </div>
+            </div>
+        </div>
         </div>
     </main>
     <footer>
