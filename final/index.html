@@ -8,6 +8,7 @@
     <meta name="description" content="Bountiful Foods home, which allows consumers to learn more about the company, and create orders of their own.">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,13 +34,14 @@
     <main>
         <picture>
             <source srcset="images/fruit_mixedMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
+            <source srcset="images/fruit_mixedLarge.webp" media="(min-width: 960px)">
             <img  class="banner fruit" src="images/fruitSmall.webp" alt="Mixed Fruit" loading="lazy">
         </picture>
         <p class="slogan"><strong>Fresh Food <br> Made Just For <br> You</strong></p>
         <div class="layout">
         <div class="drink">
             <h2>Create Your Own Fruit Drink!</h2>
-            <button id="call"><a href="#">Start Here!</a></button>
+            <button id="call"><a href="fresh.html">Start Here!</a></button>
             <picture>
                 <img class="banner smoothie" src="images/smoothieSmall.webp" alt="Fruit Smoothie" loading="lazy">
             </picture>
@@ -47,10 +49,11 @@
         </div>
         <div class="coast">
             <picture>
+                <source srcset="images/carlsbadMedium.webp" media="(min-width: 519px) and (max-width: 959px)">
                 <img class="banner" src="images/carlsbadSmall.webp" alt="Carlsbad, California Beach" loading="loading">
             </picture>
             <h2>Carlsbad, California</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid error fugiat distinctio quasi? Laudantium debitis rem dignissimos aperiam asperiores repellendus, autem incidunt iure suscipit odit ex, natus quisquam qui sit.</p>
+            <p class="lorem">Carlsbad, California is located in sunny Southern California. If you look on a map, you can find it easily! Carlsbad has diverse landscapes; from pristine beaches, to strawberry farms. It is here, where Bountiful Foods, first started their business in 1984.</p>
         </div>
         <div class="weather">
             <h2>Weather</h2>
@@ -65,8 +68,19 @@
                     <p class="humidity"><span id="humidity"></span></p>
                 </figure>
             </div>
+            <h2>Forecast</h2>
             <div class="forecast">
-                <h2>Forecast</h2>
+                <div class="day1">
+                    <span id="dayOne"></span>
+                    <p><span id="temp1"></span> &deg;F</p>
+                </div>
+                <div class="day2">
+                    <span id="dayTwo"></span>
+                    <p><span id="temp2"></span> &deg;F</p>
+                </div><div class="day3">
+                    <span id="dayThree"></span>
+                    <p><span id="temp3"></span> &deg;F</p>
+                </div>
             </div>
         </div>
         <div class="social1">
@@ -96,5 +110,6 @@
     </footer>
     <script src="js/home.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
 </body>
 </html>

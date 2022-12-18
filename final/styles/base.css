@@ -1,6 +1,8 @@
 
 body{
     font-family: 'Public Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header{
     display: flex;
@@ -61,7 +63,7 @@ ul li a{
 .responsive li{
     background-color: white;
     display: block;
-    z-index: 3;
+    z-index: 1;
 } 
 
 .responsive li:hover{
@@ -188,6 +190,28 @@ figcaption{
     margin-bottom: 0px;
 }
 
+.forecast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.day1{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.day2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.day3{
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
 /* Social Media Links */
 
 .social{
@@ -308,10 +332,17 @@ form label.top textarea{
 form{
     background-color: #b8fc65;
     border-radius: 20px;
+    padding: 10px;
 }
 
 /* Form Output */
 
+.output{
+    border-radius: 20px;
+    background-color: #b8fc65;
+    margin-top: 20px;
+    padding: 10px;
+}
 /* About Us Page */
 
 .aboutinfo{

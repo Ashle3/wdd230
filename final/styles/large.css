@@ -83,4 +83,39 @@
         font-size: 20px;
     }
 
+
+    /*Homepage*/
+
+    .slogan{
+        left: 500px;
+        top: 350px;
+    }
+
+    .today{
+        font-size: 30px;
+        height: 100%;
+    }
+
+    .forecast{
+        font-size: 30px;
+        height: 100%;
+    }
+
+    .lorem{
+        font-size: 25px;
+    }
+
+    .follow{
+        font-size: 20px;
+    }
+
+    .social{
+        width: 75px;
+    }
+
+    .drinknum{
+        font-size: 20px;
+        text-align: center;
+    }
+
 }
